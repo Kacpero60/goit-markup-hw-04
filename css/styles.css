@@ -384,3 +384,33 @@ body {
     color: #2e2f42;
     margin-bottom: 72px;
 }
+.fiveee {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.fvvv {
+    display: flex; 
+    gap: 24px; 
+}
+.fiveli {
+    width: calc((100% - 120px) / 6);
+    height: 88px;
+}
+.listfive {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #8e8f99;
+    border-radius:4px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    color: #8e8f99;
+}
+.listfive:focus{
+    border-color: #404bbf; 
+    color: #404bbf; 
+}
+.listfive:hover {
+    border-color: #404bbf; 
+    color: #404bbf;
+}
