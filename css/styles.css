@@ -25,6 +25,7 @@ img {
     background-color: #f4f4fd; 
     border-radius: 4px;
     margin-bottom: 8px;
+    align-items: baseline;
 }
 .klasanav {
     display: flex;
@@ -45,6 +46,26 @@ img {
     text-decoration: none;
     display: inline-block;
     margin-bottom: 16px;
+}
+.logo link {
+    margin-right: 120px;
+
+}
+.ddddddd {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.listfooter {
+    display: flex;
+    gap: 16px;
+}
+.listfooterone {
+    weight: 40px;
+    height: 40px;
 }
 .spanone {
     color:#2e2f42;
