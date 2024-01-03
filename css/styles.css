@@ -1,13 +1,14 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     }
 img { 
     display: block 
 }
 .klasadlaheadera {
     border-bottom: 1px solid #e7e9fc;
-    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+    box-shadow: 0px 2px 1px rgba(177, 178, 201, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .kontener {
     display: flex;
@@ -17,7 +18,11 @@ img {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
-   
+    align-items: center; 
+    justify-content: center;
+    height: 112px;
+    border-radius: 4px; 
+    margin-bottom: 8px; 
 }
 .klasanav {
     display: flex;
@@ -54,11 +59,29 @@ img {
 .listfooter {
     display: flex;
     gap: 16px;
+
 }
 .listfooterone {
     weight: 40px;
     height: 40px;
+   
 }
+.footlinks {
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius:50%;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+.footlinks:hover{
+    background-color: #31d0aa; 
+}
+.footlinks:focus{
+    background-color: #31d0aa;
+}
+
 .spanone {
     color:#2e2f42;
 
@@ -317,10 +340,9 @@ body {
 }
 .classli {
     background-color:#FFFFFF;
-    width: calc((100% - 48px) / 3);
+    width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
     box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-    display: flex;
     justify-content: center; 
     gap: 24px; 
 
@@ -379,6 +401,13 @@ body {
 }
 .dddddd {
     background-color: #F4F4FD;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+
 }
 .lass {
     padding: 32px 16px;
