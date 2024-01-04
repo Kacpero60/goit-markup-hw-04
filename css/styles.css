@@ -510,11 +510,11 @@ body {
     justify-content: center; 
     color: #8e8f99; 
 }
-.listfive:focus {
+.asecfive:focus {
     border-color: #404bbf; 
     color: #404bbf;
 }
-.listfive:hover {
+.asecfive:hover {
     border-color: #404bbf; 
     color: #404bbf;
 }
