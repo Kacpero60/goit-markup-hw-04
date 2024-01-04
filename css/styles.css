@@ -268,6 +268,7 @@ body {
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
+   margin: auto;
  }
 .naglowekhtml {
     font-size: 56px;
@@ -276,6 +277,8 @@ body {
     letter-spacing: 0.02em;
     color: #ffffff;
     max-width: 496px;
+    margin: auto;
+    margin-bottom: 48px;
 }
 .buttonone {
     background-color: #4D5AE5;
@@ -292,6 +295,7 @@ body {
     background-color: #4d5ae5;
     border-radius: 4px;
     cursor: pointer;
+    margin:auto;
 }
 .buttonone:focus {
     background-color: #404BBF;
@@ -476,6 +480,7 @@ body {
 .fiveli {
     width: calc((100% - 120px) / 6);
     height: 88px;
+
 }
 .listfive {
     width: 100%;
@@ -500,4 +505,8 @@ body {
     height: 100%;
     border: 1px solid #8e8f99;
     border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    color: #8e8f99; 
 }
