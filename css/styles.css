@@ -45,7 +45,6 @@ img {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px; 
-    margin-right: 120px;
 }
 .klasanav {
     display: flex;
@@ -78,6 +77,10 @@ img {
     letter-spacing: 0.02em;
     color: #FFFFFF;
     margin-bottom: 16px;
+}
+.apdiv {
+    margin-right: 120px;
+
 }
 .listfooter {
     display: flex;
