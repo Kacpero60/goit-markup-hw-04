@@ -45,6 +45,7 @@ img {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px; 
+    margin-right: 120px;
 }
 .klasanav {
     display: flex;
@@ -87,6 +88,9 @@ img {
     weight: 40px;
     height: 40px;
    
+}
+.footersvgg {
+    fill: #f4f4fd;
 }
 .footlinks {
     width: 100%;
@@ -249,6 +253,8 @@ body {
 .page-footer {
     background-color:#2e2f42;
     padding: 100px 0;
+    display: flex;
+    align-items: baseline;
 
 }
 .sectionone {
