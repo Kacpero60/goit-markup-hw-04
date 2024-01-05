@@ -39,7 +39,7 @@ img {
 }
 .kontener {
     display: flex;
-    gap: 332px;
+    justify-content: space-between;
 }
 .container {
     width: 1158px;
