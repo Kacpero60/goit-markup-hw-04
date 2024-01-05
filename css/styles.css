@@ -18,10 +18,10 @@ img {
     align-items: center;
     justify-content: center;
 }
-.fourlink :hover {
+.fourlink:hover {
     background-color: #404bbf;
 }
-.fourlink :focus {
+.fourlink:focus {
     background-color: #404bbf;
 }
 .sectionfourlist {
