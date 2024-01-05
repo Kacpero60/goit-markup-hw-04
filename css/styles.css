@@ -152,10 +152,10 @@ img {
     color: #2e2f42;
     text-decoration: none;
 }
-.link-one link:hover {
+.link-one {
     color:#404bbf;
 }
-.link-one link:focus {
+.link-one {
     color:#404bbf;
 }
 .list {
