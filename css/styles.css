@@ -152,6 +152,10 @@ img {
     color: #2e2f42;
     text-decoration: none;
 }
+.bbbb {
+    display: flex;
+    align-items: baseline;
+}
 .link-one {
     color:#404bbf;
 }
